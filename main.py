@@ -25,10 +25,14 @@ def main():
     if restart == "y":
         main()
     elif restart == "n":
+	cls()
         print("Thanks for using the script.")
         time.sleep(4)
         quit()
     else:
+	cls()
+        print("Thanks for using the script.")
+        time.sleep(4)
         quit()
         
 if __name__ == '__main__':
